@@ -35,7 +35,7 @@ export default function App() {
       return;
     }
     const password = prompt("請輸入管理員密碼：");
-    if (password === import.meta.env.VITE_ADMIN_PASSWORD) {
+    if (password === import.meta.env.VITE_ADMIN) {
       setIsAdmin(true);
       alert("已進入管理模式");
     } else {
